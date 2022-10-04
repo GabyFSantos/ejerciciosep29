@@ -1,0 +1,20 @@
+:root {
+    --front-h1: 'Inter Tight', sans-serif;
+    --font:'Source Sans Pro', sans-serif;
+    --color-header-boton:#3a7fe7 ;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    font-family: var(--font-h1);
+    color: white;
+    background-color: var(--color-header-boton);
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    font-weight: 700;
+}
