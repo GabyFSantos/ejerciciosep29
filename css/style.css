@@ -18,3 +18,81 @@ body {
     align-items: center;
     font-weight: 700;
 }
+.grid{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    max-width: 1308px;
+}
+.grid-card {
+    width: 300px ;
+    height: 400px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: var(--font);
+    letter-spacing: -2px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px ;
+    border-color: rgb(172, 99, 255);
+    margin-bottom: 20px;
+}
+.grid-card img {
+    width: 300px;
+}
+.grid-card p {
+    font-weight: bold;
+}
+.grid-card .barra-cantidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra-cantidad #num{
+    margin-left: 15px ;
+    margin-right: 15px;
+    text-align: center;
+    height:30px;
+    border-radius: 5px;
+    font-family: var(--font);
+}
+.barra-cantidad button{
+    border-radius: 4px;
+    height: 25px;
+}
+.grid-card .card-buton{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(172, 99, 255);
+    margin-top:20px;
+    height: 42px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-card .card-buton button{
+    font-family: var(--font);
+    background-color: var(--color-header-boton);
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    width: 75px;
+    font-size: 15px;
+}
+@media only screen and (min-width:375px) and (max-width:480px) {
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-card{
+        width: 360px ;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
