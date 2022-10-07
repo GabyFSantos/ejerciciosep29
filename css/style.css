@@ -63,7 +63,7 @@ body {
 .grid-card .card-buton{
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(172, 99, 255);
+    border-color: rgb(127, 80, 180);
     margin-top:20px;
     height: 42px;
     display:flex;
@@ -78,7 +78,7 @@ body {
     border-radius: 5px;
     height: 30px;
     cursor: pointer;
-    color: white;
+    color: rgb(199, 199, 199);
     font-weight: bold;
     width: 75px;
     font-size: 15px;
